@@ -11,4 +11,4 @@ fi
 dnf5 install -y podman-compose podman-docker
 
 ### Add rEFInd management commands to ujust
-install -D -m 0644 /ctx/60-rEFInd-management.just /usr/share/ublue-os/just/60-rEFInd-management.just
+install -D -m 0644 /ctx/60-custom.just /usr/share/ublue-os/just/60-custom.just
