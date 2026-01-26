@@ -4,7 +4,6 @@ set -ouex pipefail
 
 ### Install packages
 dnf5 install -y podman-compose podman-docker
-dnf5 install -y  rEFInd
 
 # Remove Broadcom WiFi blacklist (T2 MBP)
 if [[ -f /usr/lib/modprobe.d/20-akmods.conf ]]; then
